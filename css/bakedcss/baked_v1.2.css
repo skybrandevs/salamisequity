@@ -1,0 +1,2304 @@
+/* baked css libary v1.2 written by johnson chidubem on 18th june 2019  */
+
+
+/*reset border-box to prevent faustration and enable padding consistently */
+
+html{
+
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+
+    box-sizing: inherit;
+
+}
+
+/*end*/
+
+
+.baked-wide {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/* specifies a row works based on flex box */
+
+
+.baked-row {
+  
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*end*/
+
+
+ /* specifies automatic sections coloums based on .baked-row */
+
+ .baked-sec{
+    
+    padding-left:  50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:auto;
+    width: 100%;
+    
+     }
+
+
+/*can contain elements up to 12 coloums automatically */
+
+     .baked-sec-full-width{
+
+     padding:1px 1px 1px 1px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:auto;
+        width: 100%;
+        
+         }
+
+         /*end*/
+
+
+
+         .baked-sec-fully-boxed{
+
+            padding-left:  95px;
+            padding-right: 95px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:auto;
+            width: 100%;
+        
+        }
+
+
+
+         /*end*/
+
+         
+
+
+         /*responsive image*/
+
+         .baked-img {
+            max-width: 100%;
+            height: auto;
+          }
+
+         /*end*/
+
+
+
+  /* specifies body properties*/
+  body {
+
+    overflow-x:hidden !important;
+
+
+}
+
+
+
+/* baked browser scroller webkit re-design */
+
+
+/*for scrollerbar*/
+     /* width */
+     ::-webkit-scrollbar {
+        width: 3px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background:white; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background:black; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background:black; 
+    }
+
+/*end*/
+
+
+
+    /* baked fancy background colors to add to your containers */
+
+    .fancy-plum {
+
+        background-color: plum;
+   
+            }
+        
+        
+            .fancy-purple {
+        
+                background-color: purple;
+     
+            }
+        
+        
+        
+            .fancy-white{
+        
+        background-color: white;
+        
+            }
+
+
+        
+            .fancy-whitesmoke{
+        
+        background-color: whitesmoke;
+    
+        }
+        
+        
+        .fancy-black{
+        
+        background-color: black;
+   
+        
+        }
+        
+        .fancy-skyblue{
+        
+        background-color: skyblue;
+     
+        
+        }
+        
+        .fancy-teal{
+        
+        background-color: teal;
+        
+        }
+        
+        .fancy-turquoise{
+        
+            background-color: turquoise;
+            
+        }
+        
+        .fancy-grey{
+        
+            background-color: grey;
+         
+        }
+        
+        
+        .fancy-silver{
+        
+        background-color: silver;
+    
+        }
+        
+        
+        .fancy-pink{
+            background-color: pink;
+       
+        }
+        
+        .fancy-red{
+        
+            background-color: red;
+       
+        
+        }
+        
+        .fancy-transparent {
+        
+            background-color: transparent !important;
+   
+        }
+
+
+
+    /*end*/
+
+
+    /* all button classes from default to fancy */
+
+
+.btn{
+
+
+    background-color: skyblue;
+    border: 0px solid skyblue ;
+    width:fit-content !important;
+    text-align: center !important;
+    height:40px;
+    font-size: 13px;
+    font-weight: bold;
+    color:white;
+    outline: none !important;
+    
+    
+    }
+    
+    
+    .fancy-btn-1{
+    
+    
+        background-color: plum;
+        border: 0px solid plum ;
+        border-radius: 4px;
+        width:fit-content !important;
+        text-align: center !important;
+        height:40px;
+        font-size: 13px;
+        font-weight: bold;
+        color:white;
+        outline: none !important;
+    
+    
+    }
+    
+    
+    .fancy-btn-2{
+    
+    
+        background-color:purple;
+        border: 0px solid purple;
+        border-radius: 25px;
+        width:fit-content !important;
+        text-align: center !important;
+        height:40px;
+        font-size: 13px;
+        font-weight: bold;
+        color:white;
+        outline: none !important;
+    
+    }
+    
+    /* all fancy buttons transparent */
+    
+    
+    .fancy-btn-3-thin{
+    
+    
+        background-color:transparent !important;
+        border: 1px solid purple;
+        border-radius: 25px;
+        width:fit-content !important;
+        text-align: center !important;
+        height:40px;
+        font-size: 13px;
+        font-weight: bold;
+        color:inherit;
+        outline: none !important;
+    
+    
+    }
+    
+    
+    .fancy-btn-3-thick{
+    
+    
+        background-color:transparent !important;
+        border: 3px solid purple;
+        border-radius: 25px;
+        width:fit-content !important;
+        text-align: center !important;
+        height:40px;
+        font-size: 13px;
+        font-weight: bold;
+        color:inherit;
+        outline: none !important;
+    }
+    
+    
+    
+        .fancy-btn-4-thin{
+    
+    
+            background-color:transparent !important;
+            border: 1px solid plum ;
+            border-radius: 4px;
+            width:fit-content !important;
+            text-align: center !important;
+            height:40px;
+            font-size: 13px;
+            font-weight: bold;
+            color:inherit;
+            outline: none !important;
+        
+        
+        }
+    
+    
+    
+    
+        .fancy-btn-4-thick{
+    
+    
+            background-color:transparent !important;
+            border: 3px solid plum ;
+            border-radius: 4px;
+            width:fit-content !important;
+            text-align: center !important;
+            height:40px;
+            font-size: 13px;
+            font-weight: bold;
+            color:inherit;
+            outline: none !important;
+        
+        
+        }
+    
+    
+        .fancy-btn-5-thin{
+    
+    
+            background-color:transparent !important;
+            border: 1px solid skyblue ;
+            width:fit-content !important;
+            text-align: center !important;
+            height:40px;
+            font-size: 13px;
+            font-weight: bold;
+            color:inherit;
+            outline: none !important;
+            
+            
+            }
+    
+    
+    
+    
+    
+        .fancy-btn-5-thick{
+    
+    
+            background-color:transparent !important;
+            border: 3px solid skyblue ;
+            width:fit-content !important;
+            text-align: center !important;
+            height:40px;
+            font-size: 13px;
+            font-weight: bold;
+            color:grey;
+            outline: none !important;
+            
+            
+            }
+
+
+
+
+ a {
+
+    text-decoration: none !important;
+    color: black;
+    outline: none !important
+                
+ }
+                
+ 
+ 
+ a:hover {
+                
+
+    text-decoration: none !important;
+    color: black;
+                
+                
+    }
+
+
+/* fix curves borders on ios devices when using single line form fields */
+
+.baked-form-fix{
+
+   
+    -webkit-appearance: none !important;
+    border-radius: 0 !important; 
+        
+
+
+}
+
+    
+    
+    
+/* responsive break point for mobile devices */
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+.baked-hide{
+
+display: none;
+
+   
+}
+
+
+.mrg-left , .auto{
+
+margin-left: auto !important;
+
+}
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+}
+
+/*end*/
+
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+
+.mrg-left , .auto{
+
+   margin-left: auto !important;
+   
+   }
+   
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+
+   .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+}
+
+/*end*/
+
+
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+      
+    
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+}
+
+
+/*end*/
+
+
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+
+
+/*galaxy Phones*/
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+}
+
+/*end*/
+
+
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+
+
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+
+
+   .baked-hide{
+
+      display: none;
+      
+         
+      }
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+}
+
+
+
+
+/*end*/
+
+
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+}
+
+
+/*end*/
+
+
+
+/* ----------- Google Pixel ----------- */
+
+/*  Landscape */
+@media screen 
+  and (device-width: 731px) 
+  and (device-height: 411px) 
+{
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+}
+
+
+/*--end--*/
+
+
+
+
+/* ----------- Google Pixel XL ----------- */
+
+/*  Landscape */
+@media screen 
+  and (device-width: 823px) 
+  and (device-height: 411px) 
+  {
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+
+   .baked-hide{
+
+      display: none;
+      
+         
+      }
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+}
+
+/*end*/
+
+
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+   .baked-hide{
+
+      display: none;
+      
+         
+      }
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+}
+
+
+/*end*/
+
+
+
+/* ----------- Nexus 4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 384px) 
+  and (device-height: 592px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+}
+
+
+/*end*/
+
+
+
+
+/* ----------- Nexus 5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 592px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+}
+
+/*end*/
+
+
+/* ----------- Nexus 6 and 6P ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 592px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+}
+
+
+/*end*/
+
+
+
+/* ----------- Windows Phone ----------- */
+
+/* Landscape */
+@media screen 
+  and (device-width: 800px) 
+  and (device-height: 480px)
+ {
+
+   .mrg-left , .auto{
+
+      margin-left: auto !important;
+      
+      }
+
+
+   .baked-hide{
+
+      display: none;
+      
+         
+      }
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+}
+
+
+
+/*end*/
+
+
+
+
+/*Tablets media query*/
+/*ipad*/
+
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+   .mrg-left , .auto {
+
+      margin-left: 300px !important;
+      
+      }
+
+
+      .auto-mrg-2{
+
+
+margin-left: 170px;
+
+      }
+
+
+   .baked-hide{
+
+      display: none;
+      
+         
+      }
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+    
+
+}
+
+
+
+
+
+
+/*end*/
+
+
+
+
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+  
+
+   .baked-hide{
+
+      display: none;
+      
+         
+      }
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+   .mrg-left , .auto {
+
+      margin-left: 460px !important;
+      
+      }
+
+
+      .auto-mrg-2{
+
+
+margin-left: 280px;
+
+      }
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+   
+
+    .baked-row {
+  
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+
+
+ .baked-sec{
+    
+    padding-left:  50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:auto;
+    width: 100%;
+    
+     }
+
+
+
+
+     .baked-sec-full-width{
+
+        padding:1px 1px 1px 1px;
+           margin-top: 50px;
+           margin-bottom: 50px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-size:auto;
+           width: 100%;
+           
+            }
+   
+            /*end*/
+   
+   
+   
+            .baked-sec-fully-boxed{
+   
+               padding-left:  95px;
+               padding-right: 95px;
+               margin-bottom: 50px;
+               margin-top: 50px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-size:auto;
+               width: 100%;
+           
+           }
+   
+
+
+
+
+
+
+
+
+}
+
+
+/*end*/ 
+
+
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+
+    .baked-row {
+  
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+
+
+ .baked-sec{
+    
+    padding-left:  50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:auto;
+    width: 100%;
+    
+     }
+
+
+
+
+     .baked-sec-full-width{
+
+        padding:1px 1px 1px 1px;
+           margin-top: 50px;
+           margin-bottom: 50px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-size:auto;
+           width: 100%;
+           
+            }
+   
+            /*end*/
+   
+   
+   
+            .baked-sec-fully-boxed{
+   
+               padding-left:  95px;
+               padding-right: 95px;
+               margin-bottom: 50px;
+               margin-top: 50px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-size:auto;
+               width: 100%;
+           
+           }
+   
+
+
+
+
+}
+
+
+
+/*end*/
+
+
+
+
+
+  /*end*/ 
+
+
+  /* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+   
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+}
+
+/*end*/ 
+
+
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+}
+
+
+/*end*/
+
+
+
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+    
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+
+}
+
+/*end*/
+
+
+
+/* ----------- Nexus 7 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 601px) 
+  and (device-height: 906px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+}
+
+/*end*/
+
+
+/* ----------- Nexus 9 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+
+
+
+}
+
+/*end*/ 
+
+
+
+
+
+/* ----------- Kindle Fire HD 7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+
+
+   .baked-hide{
+
+      display: none;
+      
+         
+      }
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+
+
+}
+
+
+/*end*/
+
+
+
+/* ----------- Kindle Fire HD 8.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+
+
+    .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+
+}
+
+
+/*end*/
+
+
+
+/*laptops_retina_and_non_retina*/
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+
+    .baked-wide {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    
+
+.baked-row {
+  
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.baked-sec{
+    
+    padding-left:  50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:auto;
+    width: 100%;
+    
+     }
+
+
+     .baked-sec-full-width{
+
+        padding:1px 1px 1px 1px;
+           margin-top: 50px;
+           margin-bottom: 50px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-size:auto;
+           width: 100%;
+           
+            }
+   
+            /*end*/
+   
+   
+   
+            .baked-sec-fully-boxed{
+   
+               padding-left:  95px;
+               padding-right: 95px;
+               margin-bottom: 50px;
+               margin-top: 50px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-size:auto;
+               width: 100%;
+           
+           }
+   
+
+
+
+
+}
+
+
+
+/*end*/
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .baked-wide {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    
+
+.baked-row {
+  
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.baked-sec{
+    
+    padding-left:  50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:auto;
+    width: 100%;
+    
+     }
+
+
+     .baked-sec-full-width{
+
+        padding:1px 1px 1px 1px;
+           margin-top: 50px;
+           margin-bottom: 50px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-size:auto;
+           width: 100%;
+           
+            }
+   
+            /*end*/
+   
+   
+   
+            .baked-sec-fully-boxed{
+   
+               padding-left:  95px;
+               padding-right: 95px;
+               margin-bottom: 50px;
+               margin-top: 50px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               font-size:auto;
+               width: 100%;
+           
+           }
+   
+
+
+
+}
+
+
+
+/*end*/
+
+
+
+/*wearables*/ 
+
+
+/* ----------- Apple Watch ----------- */
+@media
+  (max-device-width: 42mm)
+  and (min-device-width: 38mm) { 
+
+    
+
+}
+
+
+/*end*/
+
+
+
+
+/*special media query that fixes issues on mobile devices of 6.0 inches screen size */
+
+
+
+@media screen 
+and (max-width:720px)
+and (max-height:1440px)
+ and (max-resolution: 268dpi)
+ and (-webkit-max-device-pixel-ratio:2)
+ { 
+
+
+
+
+
+
+
+.baked-hide{
+
+   display: none;
+   
+      
+   }
+   
+   .baked-row {
+  
+        display:flex;
+        width:100% !important;
+        flex-direction:column;
+    
+     }
+
+
+
+     .baked-twist {
+  
+        display:flex;
+        flex-direction: column-reverse;
+    
+     }
+
+
+
+
+     .baked-sec-fully-boxed , .baked-sec-full-width{
+
+
+        padding-left:  45px;
+        padding-right: 45px;
+         }
+   
+      
+      
+  }
+
+
+
+
+
+/*end*/
+
+
+
+
+
+
+
+/*end*/
+
+
+
+
+
+
+
+
+
+

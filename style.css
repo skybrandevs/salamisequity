@@ -1,0 +1,1796 @@
+.main_h {
+    position: fixed;
+    top: 0px;
+    max-height: 70px;
+    z-index: 999;
+    width: 100%;
+    padding-top: 17px;
+    background: none;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    top: -100px;
+    padding-bottom: 6px;
+    font-family: "Montserrat", sans-serif;
+  }
+  @media only screen and (max-width: 766px) {
+    .main_h {
+      padding-top: 25px;
+    }
+  }
+  
+  .open-nav {
+    max-height: 400px !important;
+  }
+  .open-nav .mobile-toggle {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+  }
+  
+  .sticky {
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    top: 0px;
+  }
+  
+  .logo {
+    width: 200px;
+  
+ 
+    float: left;
+    display: block;
+    margin-top:-40px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 766px) {
+    .logo {
+      float: none;
+    }
+  }
+  
+  nav {
+    float: right;
+    width: 60%;
+  }
+  @media only screen and (max-width: 766px) {
+    nav {
+      width: 100%;
+    }
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    float: right;
+  }
+  @media only screen and (max-width: 766px) {
+    nav ul {
+      padding-top: 10px;
+      margin-bottom: 22px;
+      float: left;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 1.5;
+  }
+  @media only screen and (max-width: 766px) {
+    nav ul li {
+      width: 100%;
+      padding: 7px 0;
+      margin: 0;
+    }
+  }
+  nav ul a {
+    color:rgb(168, 12, 17);
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  .mobile-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 22px;
+    top: 0;
+    width: 30px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+  @media only screen and (max-width: 766px) {
+    .mobile-toggle {
+      display: block;
+    }
+  }
+  .mobile-toggle span {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 6px;
+    border-radius: 1000px;
+    background:rgb(168, 12, 17);
+    display: block;
+  }
+  
+  .row {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #8f8f8f;
+    background: white;
+    font-family: "Cardo", serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 30px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 2;
+  }
+  
+  .content {
+    padding: 50px 2% 250px;
+  }
+  
+  .hero {
+    position: relative;
+    background: url(http://www.philippefercha.com/cd/toggle-menu-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 110px;
+    min-height: 500px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .mouse {
+    display: block;
+    margin: 0 auto;
+    width: 26px;
+    height: 46px;
+    border-radius: 13px;
+    border: 2px solid rgb(168, 12, 17);
+    background-color:transparent;
+    position: absolute;
+    bottom: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -26px;
+  }
+  .mouse span {
+    display: block;
+    margin: 6px auto;
+    width: 2px;
+    height: 2px;
+    border-radius: 4px;
+    background:rgb(168, 12, 17);
+    border: 1px solid transparent;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+  }
+  
+  @-webkit-keyframes scroll {
+    0% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  }
+  @keyframes scroll {
+    0% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  }
+  
+
+
+  .bac{
+
+background-color:whitesmoke;
+height: 102vh;
+
+
+  }
+
+
+  @font-face {
+    font-family: ApercuProBoldimport;
+    src: url("fonts/Apercu/ApercuProBold.otf");
+  }
+
+
+  .header-fnt{
+
+    font-family: ApercuProBoldimport;
+    font-size: 55px;
+    font-style: normal;
+    line-height: 68px;
+    font-weight: 700;
+    margin-top: 80px;
+    color: rgb(168, 12, 17);
+
+
+  }
+
+  .trusted{
+
+    font-family: ApercuProBoldimport;
+    font-size: 16px;
+    line-height: 10px;
+    color: #c5c5c5;
+    margin-top: 55px;
+  }
+
+
+
+  .icons{
+
+width: 110px;
+
+
+  }
+
+
+  .icons-2{
+display: block;
+margin-left: auto;
+margin-right: auto;
+    width: 110px;
+    
+    
+      }
+
+  .parah{
+
+    font-family: ApercuProBoldimport;
+    margin-top: 40px;
+
+    
+  }
+
+
+
+
+
+  .btn-se{
+
+
+width: 220px;
+height: 56px;
+border-radius: 28px;
+font-family: 'Open Sans', sans-serif;
+font-weight: bolder;
+margin-top: 30px;
+border: transparent;
+background-color: rgb(168, 12, 17);
+color: white;
+
+  }
+
+
+  .btn-se-2{
+
+    width: 220px;
+height: 56px;
+border-radius: 28px;
+font-family: 'Open Sans', sans-serif;
+font-weight: bolder;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: transparent;
+background-color:rgb(168, 12, 17);
+color: white;
+
+
+  }
+
+
+
+  .btn-se-3{
+
+width: 220px;
+height: 56px;
+border-radius: 28px;
+font-family: 'Open Sans', sans-serif;
+font-weight: bolder;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 55px;
+border: transparent;
+background-color:rgb(168, 12, 17);
+color: white;
+
+
+  }
+
+
+
+
+  a{
+      color: inherit !important;
+  }
+
+
+
+  .cards{
+background-color:white;
+border: transparent;
+border-radius: 8px;
+height: 100px;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.068);
+width: 80%;
+height: fit-content;
+}
+
+.font-feedback{
+
+    font-family: ApercuProBoldimport;
+    font-size: 13px;
+    position: relative;
+    right: 30px;    
+}
+
+.face{
+
+width: 100px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+
+
+/*effects*/
+.ball {
+    
+    animation: bounce 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bounce {
+    from { transform: translate3d(0,0, 0);     }
+    to   { transform: translate3d(0, 20px, 0); }
+  }
+  
+
+  .zoom {
+
+
+    transition: transform .2s; /* Animation */
+   
+  
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+
+
+  .header-fnt-2{
+
+text-align: center;
+font-family: ApercuProBoldimport;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 49px;
+margin-top: 135px;
+margin-bottom: 50px;
+color: rgb(168, 12, 17);
+
+
+  }
+
+
+  .header-fnt-3{
+
+    text-align: center;
+    font-family: ApercuProBoldimport;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 49px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+      }
+
+
+
+
+  .parah-2{
+
+text-align: center;
+font-family: ApercuProBoldimport;
+font-style: normal;
+font-weight: 700;
+
+
+  }
+
+
+  .img-design{
+   
+border-radius: 10px;
+width: 400px;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.068);
+
+  }
+
+
+
+  .img-design-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+border-radius: 10px;
+width: 500px;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.068);
+
+  }
+
+
+
+  .people{
+    border-radius: 10px;  
+    width: 450px;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.068);
+  }
+
+
+
+  .img-design-2{
+
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.068);
+    
+    
+    
+      }
+
+
+
+  .colo{
+
+background-color:#D1F1FB;
+
+
+
+  }
+
+  .why{
+
+    text-align:center;
+    font-family: ApercuProBoldimport; 
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    color: rgb(168, 12, 17);
+    margin-bottom: 30px;
+
+  }
+
+  .parah-3{
+
+
+    text-align:center;
+    font-family: ApercuProBoldimport; 
+    margin-bottom: 70px;
+    font-size: 16px;
+  }
+
+
+
+  .testimonial{
+
+
+    text-align:center;
+    font-size: 26px;
+    font-family: ApercuProBoldimport; 
+    font-weight: bolder;
+    font-style: normal;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+  }
+
+
+  .w{
+      text-align: center;
+  }
+
+  .w-2{
+      text-align: center !important;
+      font-family: ApercuProBoldimport; 
+      margin-top: 20px;
+
+  }
+
+
+  .w-3{
+text-align:center;
+font-family: ApercuProBoldimport; 
+font-size: 14.5px;
+
+  }
+
+
+  .foot{
+    text-align:center;
+    font-family: ApercuProBoldimport; 
+    margin-bottom: 60px !important;
+  }
+
+
+  .mid{
+
+font-size: 15px;
+font-weight: bolder;
+
+
+
+  }
+
+
+  .team{
+
+width: 250px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -100px !important;
+
+  }
+
+
+
+  .team-2{
+
+    width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top:auto !important;
+    
+      }
+
+
+  .team-name{
+
+text-align: center;
+font-family: ApercuProBoldimport; 
+font-size: 15px;
+margin-top: 18px;
+color: rgb(168, 12, 17);
+
+
+  }
+
+
+  .position{
+
+    text-align: center;
+    font-size: 11px;
+
+  }
+
+
+  .position-2{
+
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 100px;
+
+  }
+
+
+
+
+  .colo-1{
+
+    background-color: #F5F3F8;
+
+
+  }
+
+
+
+
+  .header-fnt-5{
+
+    text-align:center;
+    font-family: ApercuProBoldimport;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.5px;
+    line-height: 49px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color:rgb(168, 12, 17);
+    
+    
+      }
+
+
+
+      li{
+
+text-align: left !important;
+list-style: none;
+font-family: ApercuProBoldimport;
+line-height: 50px;
+
+      }
+
+
+      .disk{
+
+        text-align: left !important;
+        font-family: ApercuProBoldimport;
+        margin-bottom: 25px;
+        font-weight: bolder;
+        font-size: 24px;
+        color: rgb(168, 12, 17);
+
+      }
+
+      .border-line{
+
+border-top: solid 1px rgba(192, 192, 192, 0.349);
+
+
+      }
+
+
+      .copyrights{
+
+
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+font-family: ApercuProBoldimport;
+
+
+
+      }
+
+
+      .field-3{
+
+
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50% !important;
+        margin-top: 40px;
+        height:65px;
+        border-radius: 10px;
+        border: 2px solid  rgba(168, 12, 17, 0.644);
+        outline: none !important;
+        
+      }
+
+
+      .field-4{
+
+
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50% !important;
+        margin-top: 40px;
+        height:120px;
+   
+        border: 2px solid  rgba(168, 12, 17, 0.644);
+        outline: none !important;
+        
+      }
+
+
+      .hvr{
+
+background-color: whitesmoke;
+
+      }
+
+
+      .coll{
+
+        color: rgb(168, 12, 17) !important;
+
+      }
+
+
+      .colll{
+
+        text-align: center;
+        font-family: ApercuProBoldimport;
+        font-size: 13px;
+        margin-top: 20px;
+        margin-bottom: -20px;
+
+      }
+
+
+/* at media query mobile phone */
+
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+
+.why-mobile{
+
+margin-top: 150px !important;
+
+
+}
+
+
+
+        .field{
+
+
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100% !important;
+          margin-top: 40px;
+          height:65px;
+          border-radius: 10px;
+          border: 2px solid  rgba(168, 12, 17, 0.644);
+          box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.027);
+          outline: none !important;
+          
+        }
+
+ 
+        
+
+        
+
+
+        .business{
+
+          text-align: center;
+        font-family: ApercuProBoldimport; 
+        font-size: 35px !important;
+        font-weight: 700;
+        line-height: 60px !important;
+        font-style: normal;
+        color: rgb(168, 12, 17);
+        margin-top: 100px !important;
+        }
+        
+
+.hide{
+  display: none;
+}
+
+
+.margin-push{
+
+
+  margin-top: 550px !important;
+
+
+}
+
+          
+  .logo {
+    width: 200px;
+    float: left;
+    margin-top:18px;
+    margin-left: -30px !important;
+    margin-bottom: -20px;
+  }
+
+
+        .cards{
+
+display: none;
+
+        }
+
+
+
+
+        .bac{
+
+            background-image: url("bac-mobile.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment:scroll !important;         
+              }
+
+
+
+
+  .header-fnt{
+
+    font-family: ApercuProBoldimport;
+    font-size: 45px;
+    font-style: normal;
+    line-height: 65px;
+    font-weight: 700;
+    margin-top: 50px;
+
+
+  }
+
+
+
+
+  .parah{
+
+    font-family: ApercuProBoldimport;
+    margin-top: 30px;
+    font-size: 15px !important;
+
+    
+  }
+
+
+  .mouse{
+      display: none;
+  }
+
+
+
+
+  .header-fnt-2{
+
+    text-align: center;
+    font-family: ApercuProBoldimport;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 49px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    
+    
+      }
+
+
+
+
+      .testimonial{
+
+
+        text-align:center;
+        font-size: 19px;
+        font-family: ApercuProBoldimport; 
+        font-weight: bolder;
+        font-style: normal;
+        margin-bottom: 20px;
+    
+      }
+
+
+
+
+
+
+
+      }
+
+      /*end*/
+
+
+/*at media query for mobile iphone 6 , 7,8  game mode*/ 
+
+
+@media only screen and (min-width: 667px) and (max-height: 375px) and (-webkit-min-device-pixel-ratio:2.0) {
+
+
+  #why{
+
+    margin-top: 200px !important;
+   
+     }
+
+
+
+   
+
+     .mouse{
+       display: none;
+     }
+
+  
+  .business{
+
+    text-align: center;
+  font-family: ApercuProBoldimport; 
+  font-size: 35px !important;
+  font-weight: 700;
+  line-height: 60px !important;
+  font-style: normal;
+  color: rgb(168, 12, 17);
+  margin-top: 80px !important;
+  }
+  
+
+
+
+
+  .logo{
+    display: none;
+  }
+
+
+
+
+
+  .bac{
+
+    background-color:whitesmoke;
+    height: 220vh;    
+    
+      }
+
+      .cards{
+        display: none;
+      }
+
+
+    .header-fnt{
+      margin-top: -20px;
+    }
+
+
+    .img-design{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+
+}
+
+
+
+
+/* media query for ipad */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+
+  .hide{
+    display: none;
+  }
+
+.people{
+
+width: 300px;
+margin-top: 450px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+
+  .margin-push{
+
+margin-top: 640px;
+
+  }
+
+
+
+.cards{
+  display: none;
+}
+
+
+
+.header-fnt,.trusted,.parah{
+
+ 
+  text-align: center;
+
+
+}
+
+.btn-se ,.icons{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
+
+}
+
+
+.img-design{
+
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+
+.disk {
+
+text-align: center !important;
+
+}
+
+
+li{
+
+text-align: center !important;
+
+}
+
+
+}
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .hide{
+    display: none;
+  }
+
+.people{
+
+width: 350px;
+margin-top: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+
+  .margin-push{
+
+margin-top: 640px;
+
+  }
+
+
+  .cards{
+    display: none;
+  }
+  
+  
+  
+  .header-fnt,.trusted,.parah{
+  
+   
+    text-align: center;
+  
+  
+  }
+  
+  .btn-se ,.icons{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  
+  }
+  
+  
+  .img-design{
+  
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  }
+  
+  
+  .disk {
+  
+  text-align: center !important;
+  
+  }
+  
+  
+  li{
+  
+  text-align: center !important;
+  
+  }
+  
+  
+  }
+  
+
+
+
+  /* iPad pro(portrait) ----------- */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:landscape) {
+
+
+
+  .bac{
+
+    background-color:whitesmoke;
+    height: 90vh !important;
+    
+    
+      }
+
+
+      .mouse{
+        display: none;
+      }
+    
+
+
+
+
+}
+  
+
+
+  /* iPad pro(portrait) ----------- */
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:portrait) {
+
+
+
+  
+        .mouse{
+          display: none;
+        }
+      
+  
+  
+  
+  
+  }
+
+
+
+
+
+/*media query for responsive game mode */
+
+@media only screen and (min-width: 568px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio:2.6) {
+
+  .why-mobile{
+
+    margin-top: 150px !important;
+    
+    
+    }
+  
+  #why{
+
+    margin-top: 200px !important;
+   
+     }
+   
+
+
+
+
+  .business{
+
+    text-align: center;
+  font-family: ApercuProBoldimport; 
+  font-size: 35px !important;
+  font-weight: 700;
+  line-height: 60px !important;
+  font-style: normal;
+  color: rgb(168, 12, 17);
+  margin-top: 80px !important;
+  }
+  
+
+
+
+  .logo{
+    display: none;
+  }
+
+
+
+
+
+  .bac{
+
+    background-color:whitesmoke;
+    height: 220vh;    
+    
+      }
+
+      .cards{
+        display: none;
+      }
+
+
+      .mouse{
+        display: none;
+      }
+
+
+      .header-fnt,.trusted,.parah{
+
+ 
+        text-align: center !important;
+      
+      
+      }
+      
+      .btn-se ,.icons{
+      
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 25px;
+      
+      }
+      
+      
+      .img-design{
+      
+      
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+      }
+
+
+}
+
+
+/*media query for pixel 2xl landscape mode */
+@media only screen and (-webkit-min-device-pixel-ratio:3.5)  {
+
+
+ 
+  #why{
+
+    margin-top: 200px !important;
+   
+     }
+   
+
+
+
+
+  .business{
+
+    text-align: center;
+  font-family: ApercuProBoldimport; 
+  font-size: 35px !important;
+  font-weight: 700;
+  line-height: 60px !important;
+  font-style: normal;
+  color: rgb(168, 12, 17);
+  margin-top: 130px !important;
+  }
+  
+
+
+
+  .bac{
+
+    background-color:whitesmoke;
+    height: 200vh !important;    
+    
+      }
+
+
+      .mouse{
+        display: none;
+      }
+
+
+
+
+}
+
+
+/*end */
+
+
+
+/* media query for iphone 5/se portrait */
+
+@media only screen and (max-width: 320px) and (max-height: 568px) and (-webkit-min-device-pixel-ratio:2.0){
+  
+  #why{
+
+ margin-top: 200px !important;
+
+  }
+
+  .mouse{
+    display: none;
+  }
+
+
+.cards{
+  display: none;
+}
+
+
+.bac{
+
+height:230vh;
+
+
+}
+
+
+.img-design{
+      
+      
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  }
+
+
+}
+
+
+/*end*/
+
+
+/* media query for iphone 5/se landscape */
+@media only screen and (max-width: 568px) and (max-height: 320px) and (-webkit-min-device-pixel-ratio:2.0){
+
+  #why{
+
+    margin-top: 200px !important;
+   
+     }
+
+
+  .business{
+
+    text-align: center;
+  font-family: ApercuProBoldimport; 
+  font-size: 35px !important;
+  font-weight: 700;
+  line-height: 60px !important;
+  font-style: normal;
+  color: rgb(168, 12, 17);
+  margin-top: 80px !important;
+  }
+  
+
+
+
+}
+
+
+/*end*/
+
+
+
+  /*css  for testimonial page */
+
+
+
+  .first{
+    font-family: ApercuProBoldimport; 
+    font-weight: bolder;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    left: -40px;
+    color: #B7C3D4;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    top: -50px;
+    
+    }
+    
+    
+    .second{
+        font-family: ApercuProBoldimport; 
+        font-weight: bolder;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        left: 108px;
+        top: 35px;
+        color: rgba(183, 195, 212, 0.705);
+        text-transform: capitalize;
+    
+    
+    }
+    
+    
+    
+    .third{
+        font-family: ApercuProBoldimport; 
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: 20px;
+        top: -75px;
+        color:rgb(208, 217, 230);
+        text-transform: capitalize;
+    }
+    
+    
+    .forth{
+    
+        font-family: ApercuProBoldimport; 
+        font-weight: bolder;
+        text-align: center;
+        color:rgba(197, 203, 211, 0.863);
+        font-size: 14.5px;
+        text-transform: capitalize;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left: 58px;
+    }
+    
+    
+    .fifth{
+    
+        font-family: ApercuProBoldimport; 
+        font-weight: bolder;
+        text-align: center;
+        color: rgba(183, 195, 212, 0.705);
+        text-transform: capitalize;
+        position: relative;
+        left: -189px;
+        top: -65px;
+        font-size:19px;
+    }
+    
+    
+    
+    .sixth{
+    
+        font-size: 20px;
+        text-align: center;
+        color: rgba(183, 195, 212, 0.705);
+        text-transform: capitalize;
+        left: 36px;
+        position: relative;
+    
+    }
+
+
+
+    .next{
+      width: 50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+    }
+
+  /*end*/
+
+
+
+  /*css for career page */
+
+.bac-image-career{
+
+
+background-image: url('images/Web-bac-careers.png');
+background-size: cover;
+height: 100vh;
+background-repeat: no-repeat;
+}
+
+
+.business{
+
+  text-align: center;
+font-family: ApercuProBoldimport; 
+font-size: 48px;
+font-weight: 700;
+line-height: 68px;
+font-style: normal;
+color: rgb(168, 12, 17);
+margin-top: 160px;
+}
+
+
+.hash{
+  text-align: center;
+  font-family: ApercuProBoldimport; 
+  font-size: 22px;
+  font-style: normal;
+  color: rgb(168, 12, 17);
+
+}
+
+
+
+.self{
+
+text-align:center;
+padding: 25px 25px 0px 0px;
+font-family: ApercuProBoldimport; 
+font-style: normal;
+color: rgb(168, 12, 17);
+font-size: 16px;
+margin-bottom: 10px;
+margin-top: 15px;
+
+}
+
+
+
+.self-2{
+
+  text-align:left;
+  font-family: ApercuProBoldimport; 
+  padding: 20px 25px 25px 25px;
+  font-size: 13px;
+  text-align: center;
+  
+  }
+  
+
+  /*end*/
+
+
+
+  /* progressive lazy load image CSS */
+a.progressive {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+}
+
+a.progressive:not(.replace) {
+  cursor: default;
+}
+
+a.progressive img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+height: auto;
+border-radius: 10px;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.068);
+
+ 
+}
+
+a.progressive img.preview {
+  filter: blur(2vw);
+  transform: scale(1.05);
+}
+
+a.progressive img.reveal {
+  position: absolute;
+  left:auto;
+  top: auto;
+  will-change: transform, opacity;
+  animation: reveal 1s ease-out;
+}
+
+@keyframes reveal {
+    0% { transform: scale(1.05); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/*end*/
+
+
+
+.bac-app{
+  background-color: whitesmoke;
+}
+
+
+.card-approach{
+
+
+background-color:white;
+border: transparent;
+border-radius: 8px;
+height: 100px;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.068);
+width: 100%;
+height:100%;
+
+
+}
+
+
+.label{
+
+width: 15px;
+position: relative;
+top: -2px;
+right:5px;
+
+}
+
+.salam{
+
+width: 200px;
+display:block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -100px !important;
+
+}
+
+
+.field{
+
+
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 40px;
+  height:65px;
+  border-radius: 10px;
+  border: 2px solid  rgba(168, 12, 17, 0.644);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.027);
+  outline: none !important;
+  
+}
+
+
+
+
+
+
+
+input ,textarea{
+
+
+  text-align:left;
+  font-family:ApercuProBoldimport !important; 
+  padding: 25px 25px 25px 25px;
+  color: #646161 !important;
+   font-size: 13px;
+  text-align:left;
+
+}
+
+
+::placeholder{
+
+  color: silver !important;
+}
+
+
+
+.colo{
+  color: rgb(168, 12, 17);
+}
+
+
+
+.benefit{
+
+text-align: center;
+color: rgb(168, 12, 17);
+font-family:ApercuProBoldimport !important; 
+font-weight: bolder;
+font-size: 40px;
+
+
+}
+
+
+.sub-class{
+
+text-align: center;
+font-family:ApercuProBoldimport !important; 
+font-weight: bolder;
+font-size: 18px;
+color: #8f8f8f;
+}
+
+
+.dollar{
+width: 30px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 15px;
+
+}
+
+.dollar-2{
+width: 60px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 15px;
+}
+
+.dollar-3{
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  }
+
+
+
