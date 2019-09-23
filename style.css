@@ -767,6 +767,22 @@ background-color: whitesmoke;
 
       @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+        
+        
+  .fruit{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 400px !important;
+    height: auto !important;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.027);
+    
+      }
+    
+        
+
 
 
 .why-mobile{
