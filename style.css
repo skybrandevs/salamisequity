@@ -247,7 +247,7 @@ height: 102vh;
     line-height: 68px;
     font-weight: 700;
     margin-top: 80px;
-    color: rgb(168, 12, 17);
+    color:whitesmoke;
 
 
   }
@@ -284,6 +284,7 @@ margin-right: auto;
 
     font-family: ApercuProBoldimport;
     margin-top: 40px;
+    color:whitesmoke;
 
     
   }
@@ -1578,6 +1579,7 @@ background-image: url('images/Web-bac-careers.png');
 background-size: cover;
 height: 100vh;
 background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 
