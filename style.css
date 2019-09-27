@@ -247,7 +247,7 @@ height: 102vh;
     line-height: 68px;
     font-weight: 700;
     margin-top: 80px;
-    color:whitesmoke;
+    color:white;
 
 
   }
@@ -356,7 +356,7 @@ color: white;
 
 
   .cards{
-background-color:white;
+background-color:rgba(255, 255, 255, 0.932);
 border: transparent;
 border-radius: 8px;
 height: 100px;
@@ -502,7 +502,8 @@ box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.068);
 
   .colo{
 
-background-color:#D1F1FB;
+background-color:rgb(168, 12, 17);
+color: white !important;
 
 
 
@@ -768,10 +769,32 @@ background-color: whitesmoke;
 
       @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+
+
+  #colo-white{
+    color: rgb(168, 12, 17) !important;
+    }
+
+     
+        .bac-image-career{
+background-image: url('images/Web-bac-careers-1.png') !important;
+background-attachment: scroll !important;
+background-attachment: cover;
+background-repeat: no-repeat !important;
+
+        }
+
+
+   
         
-      
+  .parah{
+
+    font-family: ApercuProBoldimport;
+    margin-top: 35px;
+    color:#646161;
+
     
-        
+  }
 
 
 
@@ -895,11 +918,13 @@ display: none;
   .header-fnt{
 
     font-family: ApercuProBoldimport;
-    font-size: 45px;
+    font-size: 32.5px;
     font-style: normal;
-    line-height: 65px;
+    line-height: 45px;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: -8px;
+    
+    color:#9F231D;
 
 
   }
@@ -977,7 +1002,14 @@ display: none;
      }
 
 
+     .bac-image-career{
 
+      height:200vh !important;
+      background-attachment:scroll !important;
+      background-size: cover !important;
+  
+  
+    }
    
 
      .mouse{
@@ -1219,6 +1251,13 @@ margin-top: 640px;
       }
     
 
+      .bac-image-career{
+
+        height:90vh !important;
+
+
+      }
+
 
 
 
@@ -1229,6 +1268,12 @@ margin-top: 640px;
   /* iPad pro(portrait) ----------- */
   @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:portrait) {
 
+    .bac-image-career{
+
+      height:75vh !important;
+
+
+    }
 
 
   
@@ -1249,6 +1294,16 @@ margin-top: 640px;
 /*media query for responsive game mode */
 
 @media only screen and (min-width: 568px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio:2.6) {
+
+  .bac-image-career{
+
+    height:250vh !important;
+    background-attachment:scroll !important;
+    background-size: cover !important;
+
+
+  }
+
 
   .why-mobile{
 
@@ -1342,6 +1397,14 @@ margin-top: 640px;
 /*media query for pixel 2xl landscape mode */
 @media only screen and (-webkit-min-device-pixel-ratio:3.5)  {
 
+  .bac-image-career{
+
+    height:250vh !important;
+    background-attachment:scroll !important;
+    background-size: cover !important;
+
+
+  }
 
  
   #why{
@@ -1395,6 +1458,9 @@ margin-top: 640px;
 
 @media only screen and (max-width: 320px) and (max-height: 568px) and (-webkit-min-device-pixel-ratio:2.0){
   
+ 
+
+
   #why{
 
  margin-top: 200px !important;
@@ -1577,10 +1643,53 @@ height:230vh;
 
 background-image: url('images/Web-bac-careers.png');
 background-size: cover;
-height: 100vh;
+height:100vh;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+
+
+.bac-image-career-3{
+
+  background-image: url('images/Web-bac-team.svg');
+  background-size: cover;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+}
+
+
+
+.bac-image-career-5{
+
+  background-image: url('images/Web-bac-work.svg');
+  background-size: cover;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+}
+
+
+.bac-image-career-2{
+
+
+  background-image: url('images/Web-bac-approach.svg');
+  background-size: cover;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+  
+
+  .colo-white{
+  color: whitesmoke !important;
+  }
+
+
 
 
 .business{
@@ -1830,3 +1939,15 @@ width: 400px;
 box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.027);
 
   }
+
+
+
+  .twitter-icon{
+
+width: 45px;
+margin-bottom: 8px;
+
+
+  }
+
+
