@@ -239,6 +239,17 @@ height: 102vh;
   }
 
 
+
+
+
+  @font-face {
+    font-family:ApercuProLightimport;
+    src: url("fonts/Apercu/Apercu\ Pro\ Light.otf");
+  }
+
+
+
+
   .header-fnt{
 
     font-family: ApercuProBoldimport;
@@ -356,7 +367,7 @@ color: white;
 
 
   .cards{
-background-color:rgba(255, 255, 255, 0.932);
+background-color:white;
 border: transparent;
 border-radius: 8px;
 height: 100px;
@@ -431,11 +442,11 @@ color: rgb(168, 12, 17);
   .header-fnt-3{
 
     text-align: center;
-    font-family: ApercuProBoldimport;
+    font-family: ApercuProLightimport;
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
-    line-height: 49px;
+    font-size: 25px;
+    line-height: 45px;
     margin-top: 50px;
     margin-bottom: 50px;
     
@@ -448,7 +459,7 @@ color: rgb(168, 12, 17);
   .parah-2{
 
 text-align: center;
-font-family: ApercuProBoldimport;
+font-family: ApercuProLightimport;
 font-style: normal;
 font-weight: 700;
 
@@ -526,20 +537,33 @@ color: white !important;
 
 
     text-align:center;
-    font-family: ApercuProBoldimport; 
+    font-family: ApercuProLightimport; 
     margin-bottom: 70px;
     font-size: 16px;
   }
 
 
+.phone{
+
+width: 25px;
+
+}
+
+
+.phone2{
+
+  width: 33px;
+  
+  }
+  
+
 
   .testimonial{
 
 
-    text-align:center;
-    font-size: 26px;
-    font-family: ApercuProBoldimport; 
-    font-weight: bolder;
+    text-align:left;
+    font-size: 16px;
+    font-family:ApercuProLightimport; 
     font-style: normal;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -558,6 +582,13 @@ color: white !important;
 
   }
 
+  .w-50{
+    text-align: left !important;
+    font-family: ApercuProBoldimport; 
+    margin-top: 20px;
+
+}
+
 
   .w-3{
 text-align:center;
@@ -570,8 +601,31 @@ font-size: 14.5px;
   .foot{
     text-align:center;
     font-family: ApercuProBoldimport; 
-    margin-bottom: 60px !important;
+    margin-bottom: 40px !important;
   }
+
+
+  .the-battle{
+
+    text-align:center;
+    font-family: ApercuProBoldimport; 
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: #9F231D;
+    margin-top: 100px;
+
+
+  }
+
+
+.tbos{
+
+  font-family: ApercuProLightimport; 
+  text-align:left;
+
+
+
+}
 
 
   .mid{
@@ -579,20 +633,30 @@ font-size: 14.5px;
 font-size: 15px;
 font-weight: bolder;
 
-
-
   }
 
 
   .team{
 
-width: 250px;
+width: 180px;
 display: block;
 margin-left: auto;
 margin-right: auto;
 margin-top: -100px !important;
 
   }
+
+
+.linked-in{
+
+width: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -80px !important;
+
+
+}
 
 
 
@@ -602,8 +666,8 @@ margin-top: -100px !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
-    margin-top:auto !important;
+    margin-bottom: 20px;
+    margin-top: -50px !important;
     
       }
 
@@ -768,6 +832,34 @@ background-color: whitesmoke;
 /* at media query mobile phone */
 
       @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+
+
+  .cor{
+
+    font-family:ApercuProBoldimport !important; 
+    color: white;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 15px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+
+
+  .cor-1{
+
+    font-family:ApercuProLightimport !important; 
+    color: whitesmoke;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 13px
+    
+  ;
+
+
+  }
 
 
 
@@ -1626,11 +1718,20 @@ height:230vh;
 
     .next{
       width: 50px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
       margin-top: 15px;
     }
+
+
+
+    .next-2{
+      width: 50px;
+     display: block;
+      margin-top: 15px;
+    }
+
 
   /*end*/
 
@@ -1677,7 +1778,7 @@ background-attachment: fixed;
 .bac-image-career-2{
 
 
-  background-image: url('images/Web-bac-approach.svg');
+  background-image: url('images/se.png');
   background-size: cover;
   height:100vh;
   background-repeat: no-repeat;
@@ -1689,6 +1790,12 @@ background-attachment: fixed;
   color: whitesmoke !important;
   }
 
+
+  .moni{
+
+    color: #9F231D;
+
+  }
 
 
 
@@ -1792,7 +1899,7 @@ end*/
 
 
 .bac-app{
-  background-color: whitesmoke;
+  background-color:#9F231D;
 }
 
 
@@ -1951,3 +2058,26 @@ margin-bottom: 8px;
   }
 
 
+
+
+  .cor{
+
+    font-family:ApercuProBoldimport !important; 
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+  }
+
+
+  .cor-1{
+
+    font-family:ApercuProLightimport !important; 
+    color: whitesmoke;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+  }
