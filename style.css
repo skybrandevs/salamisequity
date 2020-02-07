@@ -479,6 +479,28 @@ color:#F33440;
   }
 
 
+  @media screen and (min-width: 1400px) {
+   
+
+    .header-fnt-2{
+
+      text-align: center;
+      font-family:FuturaPTBookimport !important;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 49px;
+      margin-top: 200px;
+      margin-bottom: 50px;
+      color:#F33440;
+      
+      
+        }
+      
+
+
+  }
+
   .header-fnt-3{
 
     text-align: center;
