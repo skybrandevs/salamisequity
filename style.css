@@ -1,3 +1,21 @@
+.menu{
+  font-family:FuturaPTBookimport;
+  font-weight: bold;
+
+
+}
+
+
+.fruit{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
 .main_h {
     position: fixed;
     top: 0px;
@@ -64,6 +82,8 @@
     overflow: hidden;
     text-align: right;
     float: right;
+   
+    
   }
   @media only screen and (max-width: 766px) {
     nav ul {
@@ -114,7 +134,7 @@
     height: 4px;
     margin-bottom: 6px;
     border-radius: 1000px;
-    background:rgb(168, 12, 17);
+    background:#F33440;
     display: block;
   }
   
@@ -167,7 +187,7 @@
     width: 26px;
     height: 46px;
     border-radius: 13px;
-    border: 2px solid rgb(168, 12, 17);
+    border: 2px solid #F33440;
     background-color:transparent;
     position: absolute;
     bottom: 40px;
@@ -181,7 +201,7 @@
     width: 2px;
     height: 2px;
     border-radius: 4px;
-    background:rgb(168, 12, 17);
+    background:#F33440;
     border: 1px solid transparent;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -234,25 +254,43 @@ height: 102vh;
 
 
   @font-face {
-    font-family: ApercuProBoldimport;
-    src: url("fonts/Apercu/ApercuProBold.otf");
+    font-family: FuturaPTBoldimport;
+    src: url("fonts/Futura/FuturaPTBold.otf")
   }
 
+
+  .moni{
+    color: #F33440 !important;
+  }
+
+
+
+  @font-face {
+    font-family:FuturaPTBookimport;
+    src: url("fonts/Futura/FuturaPTBook.otf")
+  }
 
 
 
 
   @font-face {
-    font-family:ApercuProLightimport;
-    src: url("fonts/Apercu/ApercuProLight.otf");
+    font-family:FuturaPTMediumimport;
+    src: url("fonts/Futura/FuturaPTMedium.otf")
   }
 
 
 
 
+  @font-face {
+    font-family:FuturaPTLightimport;
+    src: url("fonts/Futura/FuturaPTLight.otf")
+  }
+
+
+
   .header-fnt{
 
-    font-family: ApercuProBoldimport;
+    font-family:FuturaPTBookimport !important;
     font-size: 55px;
     font-style: normal;
     line-height: 68px;
@@ -265,7 +303,7 @@ height: 102vh;
 
   .trusted{
 
-    font-family: ApercuProBoldimport;
+    font-family:FuturaPTLightimport !important;
     font-size: 16px;
     line-height: 10px;
     color: #c5c5c5;
@@ -293,8 +331,9 @@ margin-right: auto;
 
   .parah{
 
-    font-family: ApercuProBoldimport;
+    font-family:FuturaPTLightimport !important;
     margin-top: 40px;
+    font-weight:bold;
     color:whitesmoke;
 
     
@@ -310,11 +349,11 @@ margin-right: auto;
 width: 220px;
 height: 56px;
 border-radius: 28px;
-font-family: 'Open Sans', sans-serif;
+font-family:FuturaPTBookimport !important;
 font-weight: bolder;
 margin-top: 30px;
 border: transparent;
-background-color: rgb(168, 12, 17);
+background-color:#F33440;
 color: white;
 
   }
@@ -325,13 +364,13 @@ color: white;
     width: 220px;
 height: 56px;
 border-radius: 28px;
-font-family: 'Open Sans', sans-serif;
+font-family:FuturaPTBookimport !important;
 font-weight: bolder;
 display: block;
 margin-left: auto;
 margin-right: auto;
 border: transparent;
-background-color:rgb(168, 12, 17);
+background-color:#F33440;
 color: white;
 
 
@@ -344,14 +383,14 @@ color: white;
 width: 220px;
 height: 56px;
 border-radius: 28px;
-font-family: 'Open Sans', sans-serif;
+font-family:FuturaPTBookimport !important;
 font-weight: bolder;
 display: block;
 margin-left: auto;
 margin-right: auto;
 margin-top: 55px;
 border: transparent;
-background-color:rgb(168, 12, 17);
+background-color:#F33440;
 color: white;
 
 
@@ -378,7 +417,8 @@ height: fit-content;
 
 .font-feedback{
 
-    font-family: ApercuProBoldimport;
+  font-family:FuturaPTLightimport !important;
+  font-weight: bold;
     font-size: 13px;
     position: relative;
     right: 30px;    
@@ -426,14 +466,14 @@ margin-left: auto;
   .header-fnt-2{
 
 text-align: center;
-font-family: ApercuProBoldimport;
+font-family:FuturaPTBookimport !important;
 font-style: normal;
 font-weight: 700;
 font-size: 35px;
 line-height: 49px;
 margin-top: 135px;
 margin-bottom: 50px;
-color: rgb(168, 12, 17);
+color:#F33440;
 
 
   }
@@ -442,8 +482,8 @@ color: rgb(168, 12, 17);
   .header-fnt-3{
 
     text-align: center;
-    font-family: ApercuProLightimport;
-    font-style: normal;
+    font-family:FuturaPTLightimport !important;
+    font-style:italic;
     font-weight: 700;
     font-size: 25px;
     line-height: 45px;
@@ -459,9 +499,10 @@ color: rgb(168, 12, 17);
   .parah-2{
 
 text-align: center;
-font-family: ApercuProLightimport;
+font-family:FuturaPTLightimport !important;
 font-style: normal;
 font-weight: 700;
+font-size: 20.5px;
 
 
   }
@@ -513,7 +554,7 @@ box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.068);
 
   .colo{
 
-background-color:rgb(168, 12, 17);
+background-color:#F33440;
 color: white !important;
 
 
@@ -523,12 +564,12 @@ color: white !important;
   .why{
 
     text-align:center;
-    font-family: ApercuProBoldimport; 
+    font-family:FuturaPTBookimport !important;
     font-size: 28px;
     font-weight: 700;
     font-style: normal;
     margin-top: 50px;
-    color: rgb(168, 12, 17);
+    color: #F33440;
     margin-bottom: 30px;
 
   }
@@ -537,15 +578,20 @@ color: white !important;
 
 
     text-align:center;
-    font-family: ApercuProLightimport; 
+    font-family:FuturaPTBookimport !important;
     margin-bottom: 70px;
-    font-size: 16px;
+    font-size: 19.5px;
+    line-height: 41px;
+    color: #212529;
+    font-weight: 700;
+
   }
 
 
 .phone{
 
 width: 25px;
+margin-right:15px;
 
 }
 
@@ -553,6 +599,7 @@ width: 25px;
 .phone2{
 
   width: 33px;
+  margin-right:15px;
   
   }
   
@@ -562,11 +609,12 @@ width: 25px;
 
 
     text-align:left;
-    font-size: 16px;
-    font-family:ApercuProLightimport; 
+    font-size: 20px;
+    font-family:FuturaPTLightimport !important;
     font-style: normal;
     margin-bottom: 50px;
     margin-top: 50px;
+    color: white;
 
   }
 
@@ -577,50 +625,60 @@ width: 25px;
 
   .w-2{
       text-align: center !important;
-      font-family: ApercuProBoldimport; 
+      font-family:FuturaPTLightimport !important;
+      font-weight: bolder;
       margin-top: 20px;
 
   }
 
   .w-50{
     text-align: left !important;
-    font-family: ApercuProBoldimport; 
+    font-family:FuturaPTLightimport !important;
     margin-top: 20px;
+    font-weight:bolder;
 
 }
 
 
   .w-3{
-text-align:center;
-font-family: ApercuProBoldimport; 
-font-size: 14.5px;
+text-align:left;
+font-family:FuturaPTLightimport !important;
+font-size: 15.5px;
+margin-bottom: 50px;
+color:black;
 
   }
 
 
   .foot{
-    text-align:center;
-    font-family: ApercuProBoldimport; 
+    text-align:left;
+    font-family:FuturaPTLightimport !important;
     margin-bottom: 40px !important;
+   
   }
 
 
   .the-battle{
 
     text-align:center;
-    font-family: ApercuProBoldimport; 
+    font-family:FuturaPTBookimport !important;
     margin-bottom: 50px;
     font-size: 25px;
-    color: #9F231D;
+    color:#F33440;
     margin-top: 100px;
+  }
 
-
+  .dd{
+    width: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
 .tbos{
 
-  font-family: ApercuProLightimport; 
+  font-family:FuturaPTLightimport !important;
   text-align:left;
 
 
@@ -632,6 +690,7 @@ font-size: 14.5px;
 
 font-size: 15px;
 font-weight: bolder;
+line-height: 45px;
 
   }
 
@@ -675,10 +734,10 @@ margin-top: -80px !important;
   .team-name{
 
 text-align: center;
-font-family: ApercuProBoldimport; 
+font-family:FuturaPTBookimport !important;
 font-size: 15px;
 margin-top: 18px;
-color: rgb(168, 12, 17);
+color:#F33440;
 
 
   }
@@ -715,15 +774,15 @@ color: rgb(168, 12, 17);
 
   .header-fnt-5{
 
-    text-align:center;
-    font-family: ApercuProBoldimport;
+    text-align:left;
+    font-family:FuturaPTLightimport !important;
     font-style: normal;
-    font-weight: 700;
+    font-weight:bold;
     font-size: 28.5px;
-    line-height: 49px;
+    line-height: 42px;
     margin-top: 70px;
     margin-bottom: 50px;
-    color:rgb(168, 12, 17);
+    color:#F33440;
     
     
       }
@@ -734,8 +793,9 @@ color: rgb(168, 12, 17);
 
 text-align: left !important;
 list-style: none;
-font-family: ApercuProBoldimport;
+font-family:FuturaPTBookimport !important;
 line-height: 50px;
+font-weight: 500;
 
       }
 
@@ -743,11 +803,11 @@ line-height: 50px;
       .disk{
 
         text-align: left !important;
-        font-family: ApercuProBoldimport;
+        font-family:FuturaPTBookimport !important;
         margin-bottom: 25px;
         font-weight: bolder;
         font-size: 24px;
-        color: rgb(168, 12, 17);
+        color: #F33440;
 
       }
 
@@ -761,11 +821,11 @@ border-top: solid 1px rgba(192, 192, 192, 0.349);
 
       .copyrights{
 
-
-margin-top: 50px;
-margin-bottom: 50px;
-text-align: center;
-font-family: ApercuProBoldimport;
+font-size: 13.5px;
+margin-top: 30px;
+margin-bottom: 30px;
+text-align:left;
+font-family:FuturaPTBookimport !important;
 
 
 
@@ -774,7 +834,7 @@ font-family: ApercuProBoldimport;
 
       .field-3{
 
-
+     
         display:block;
         margin-left: auto;
         margin-right: auto;
@@ -782,7 +842,7 @@ font-family: ApercuProBoldimport;
         margin-top: 40px;
         height:65px;
         border-radius: 10px;
-        border: 2px solid  rgba(168, 12, 17, 0.644);
+        border: 2px solid #F33440;
         outline: none !important;
         
       }
@@ -798,7 +858,7 @@ font-family: ApercuProBoldimport;
         margin-top: 40px;
         height:120px;
    
-        border: 2px solid  rgba(168, 12, 17, 0.644);
+        border: 2px solid #F33440;
         outline: none !important;
         
       }
@@ -813,7 +873,7 @@ background-color: whitesmoke;
 
       .coll{
 
-        color: rgb(168, 12, 17) !important;
+        color: #F33440 !important;
 
       }
 
@@ -821,7 +881,7 @@ background-color: whitesmoke;
       .colll{
 
         text-align: center;
-        font-family: ApercuProBoldimport;
+        font-family:FuturaPTBookimport !important;
         font-size: 13px;
         margin-top: 20px;
         margin-bottom: -20px;
@@ -1802,7 +1862,7 @@ background-attachment: fixed;
 .business{
 
   text-align: center;
-font-family: ApercuProBoldimport; 
+font-family:FuturaPTBookimport;
 font-size: 48px;
 font-weight: 700;
 line-height: 68px;
@@ -1814,7 +1874,7 @@ margin-top: 160px;
 
 .hash{
   text-align: center;
-  font-family: ApercuProBoldimport; 
+  font-family:FuturaPTLightimport;
   font-size: 22px;
   font-style: normal;
   color: rgb(168, 12, 17);
@@ -1964,7 +2024,7 @@ input ,textarea{
 
 
   text-align:left;
-  font-family:ApercuProBoldimport !important; 
+  font-family:FuturaPTBookimport !important;
   padding: 25px 25px 25px 25px;
   color: #646161 !important;
    font-size: 13px;
@@ -1981,7 +2041,7 @@ input ,textarea{
 
 
 .colo{
-  color: rgb(168, 12, 17);
+  color:#F33440;
 }
 
 
@@ -1989,10 +2049,10 @@ input ,textarea{
 .benefit{
 
 text-align: center;
-color: rgb(168, 12, 17);
-font-family:ApercuProBoldimport !important; 
+color:#F33440;
+font-family:FuturaPTLightimport !important;
 font-weight: bolder;
-font-size: 40px;
+font-size: 48px;
 
 
 }
@@ -2001,7 +2061,7 @@ font-size: 40px;
 .sub-class{
 
 text-align: center;
-font-family:ApercuProBoldimport !important; 
+font-family:FuturaPTBookimport !important;
 font-weight: bolder;
 font-size: 18px;
 color: #8f8f8f;
@@ -2009,7 +2069,7 @@ color: #8f8f8f;
 
 
 .dollar{
-width: 30px;
+width: 73.5px;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -2043,8 +2103,6 @@ margin-left: auto;
 margin-right: auto;
 border-radius: 8px;
 width: 400px;
-box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.027);
-
   }
 
 
@@ -2062,22 +2120,52 @@ margin-bottom: 8px;
 
   .cor{
 
-    font-family:ApercuProBoldimport !important; 
-    color: white;
+    font-family:FuturaPTBookimport !important;
+    color:black;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 15px;
     margin-top: 45px;
     margin-bottom: 10px;
+    
   }
 
 
   .cor-1{
 
-    font-family:ApercuProLightimport !important; 
-    color: whitesmoke;
+    font-family:FuturaPTLightimport !important;
+    color:white;
+    font-weight:700;
     padding-left: 50px;
     padding-right: 50px;
+    margin-top:30px;
+    text-align:left;
+
+
+  }
+
+  .gg{
+background-image: url("images/face.jpeg") !important;
+height:60vh;
+background-repeat: no-repeat;
+background-position-x: right;
+background-size: contain;
+border-radius: 8px;
+
+  }
+
+  .test{
+
+    background-image: linear-gradient(to left,#F33440,#F3355D) !important;
+
+  }
+
+
+  .aapr{
+
+width:80px;
+float: left;
+
 
 
   }
