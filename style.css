@@ -934,6 +934,7 @@ background-attachment: scroll !important;
 background-attachment: cover;
 background-repeat: no-repeat !important;
 
+
         }
 
 
@@ -1837,13 +1838,13 @@ background-attachment: fixed;
 
 .bac-image-career-2{
 
-
   background-image: url('images/se.png');
   background-size: cover;
-  height:100vh;
+  min-height:50vh !important;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  }
+  background-attachment:fixed;
+  
+}
   
 
   .colo-white{
