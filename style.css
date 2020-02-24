@@ -2198,3 +2198,73 @@ float: left;
 
 
   }
+
+
+
+
+  .bac-colo-red{
+
+    background-image: linear-gradient(to left,#F33440,#F3355D) !important;
+    min-height: 45vh;
+width: 100%;
+
+  }
+
+
+  .profile-pix{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:130px;
+
+  }
+
+
+  .profile-name{
+
+    font-family:FuturaPTBookimport;
+    text-align: center;
+    color: white;
+    margin-top:30px;
+
+
+  }
+
+
+  .profile-position{
+
+    font-family:FuturaPTBookimport;
+    text-align: center;
+
+  }
+
+
+  .profile-text{
+
+    font-family:FuturaPTBookimport;
+    margin-top:50px;
+    text-align: center;
+
+  }
+
+  .small-face{
+
+width:50px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+
+
+  }
+
+
+  .next{
+
+    font-family:FuturaPTBookimport;
+    text-align: center;
+    color: #F33440;
+   
+
+  }
